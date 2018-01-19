@@ -1,0 +1,501 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 13, 2016, 6:25:08 PM
+    Author     : kimutua_zilojo
+*/
+#gallery {
+  text-align: center;
+}
+#gallery h2 {
+  color: #E31D1A;
+  text-align: center;
+  border-bottom: #D0D1D3 solid 8px;
+  display: inline-block;
+}
+.gallery-control {
+  min-height: 35px;
+}
+.gallery-control a.active {
+  background: #E31D19;
+  border-radius: 12px;
+  color: #fff;
+}
+.gallery-control a {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #E31D19;
+  font: 1.2em/1 bebas_neuebold,"Arial Black","Arial Bold",Gadget,sans-serif;
+  padding: 8px 12px;
+  display: inline;
+}
+.sp-button{
+  border: none !important;
+  border-radius: 10%;
+  width: 35px  !important;
+  height: 12px  !important;
+  background-color: #CDCFD1 !important;
+}
+.sp-selected-button{
+  background-color: #E41D1A !important;
+}
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.site-footer {
+  background: #01182F;
+  min-height: 200px;
+  padding: 50px 0 0 0;
+}
+
+.site-footer .wrapper, .footerCopyright .wrapper {
+  margin: 0 auto;
+  padding: 0 10%;
+}
+
+.group {
+  clear: both;
+  margin: 0 auto;
+}
+
+.footerCopyright {
+  border-top: #032A50 solid 1px;
+  background: #011529;
+  padding: 20px 0;
+}
+.col {
+  display: block;
+  float: left;
+  margin-right: 1%;
+}.c4 {
+  width: 32%;
+}.c2 {
+  width: 15%;
+}.c3 {
+  width: 23%;
+}
+
+.site-footer .c4 p {
+  margin: 30px 0 50px 0;
+  font-size: 14px;
+  color: #888;
+}
+
+.site-footer h3 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 15px 0;
+}
+
+
+.site-footer ul {
+  list-style: none;
+  margin: 0;
+}
+.site-footer ul li {
+  text-decoration: none;
+  margin: 10px 0;
+}
+.site-footer ul li a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Arial";
+  text-decoration: none;
+}.site-footer address {
+  line-height: 20px;
+  font-size: 14px;
+  margin-bottom: 24px;
+  color: #888;
+  font-family: "Arial";
+  text-decoration: none;
+}
+.site-footer .c3 a {
+  color: #72c144;
+}
+.site-footer .social li {
+  display: inline-block;
+  width: 30%;
+  margin-bottom: 6%;
+}
+.site-footer .social a {
+  text-indent: -99999em;
+  width: 48px;
+  height: 48px;
+  border: 2px #032a50 solid;
+  display: block;
+  border-radius: 50%;
+  background: url(../img/social.png) no-repeat 9px 14px;
+}
+.site-footer .facebook a {
+  background-position: 11px -58px;
+}
+.site-footer .facebook a {
+  background-position: 11px -58px;
+}
+.site-footer .instagram a {
+  background-position: 13px -130px;
+}
+.site-footer .youtube a {
+  background-position: 12px -254px;
+}
+.site-footer .linkedIn a {
+  background-position: 11px -307px;
+}
+.site-footer .newsletter a {
+  background-position: 11px -203px;
+}
+.mainContent .mastHead{
+  margin-bottom: -3px;
+}
+.ntbs-harmonise,
+.keylesson{
+  margin-top: 10%;
+}
+
+.mainContent section h3 {
+  margin-top: 30px;
+}
+article .border{
+  width: 60%; 
+  border: 1.5px solid #003b70; 
+  margin: 0 auto;
+  display: block;
+}
+.green{
+  color: #8FC03E;
+}
+.text-align-center{
+  text-align: center;
+}
+.yellow{
+  background-color: #FFF200;
+  color: #515351;
+}
+.mainContent .ntbs p.white {
+  color: #fff;
+}
+.mainContent .ntbs .ntbs-harmonise ul li:nth-child(1) {
+  border-right: none;
+}
+.mainContent .ntbs .ntbs-harmonise ul li:nth-child(2) {
+  width: 46%;
+  border-left: 2px solid #fff;
+  padding-left: 1%;
+}
+/*.yellow ul{
+  padding: 5%;
+}*/
+.yellow ul p,
+.yellow ul h2{
+  color: #003b70;
+}
+.yellow ul h2{
+  font-size: 70px;
+  /*text-align: center;*/
+  padding-left: 40px;
+  background: url('../img/blue-down-arrows.png');
+  background-repeat: no-repeat;
+  background-size: initial;
+}
+.yellow ul li:nth-child(1){
+  width: 27%;
+  border-right: 5px solid #003b70;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.yellow ul li:nth-child(2) p{
+  padding-top: 5%;
+}
+.blue{
+  color: #003b70;
+}
+.white{
+  color: #fff;
+}
+.red {
+  color: #E72419;
+}
+.blackp{
+  color: #929392;
+}
+.women{
+  background-color: #74BF44;
+  width: 100%;
+}
+.women h2,.women h3,.women p{
+  color: #fff;
+}
+
+.women-results{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  clear: both;
+
+}
+
+.ul-women-results{
+  margin-bottom: 30px;
+  display: table;
+}
+
+.women-results h2,
+.women-results h3,
+.women-results p{
+  padding: 5px;
+}
+.women-results ul li{
+  width: 26%;
+}
+.women-results ul li:nth-child(1),
+.women-results ul li:nth-child(2){
+  border-right: 3px solid #929392;
+}
+
+.lessons-learnt{
+  background-color: #EBEBEC;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background-image: url('../img/trjuck.png');
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: 25%;
+  background-size: 7%;
+}
+.lessons-learnt p{
+  padding-left: 20px;
+}
+.picon{
+  background-image: url('../img/keylesson-icon.png');
+  background-repeat: no-repeat;
+  background-size: 12px;
+}
+.possible{
+  text-align: left;
+  /*  background-image: url('../img/key kessons bg.jpg');
+    background-repeat: no-repeat;*/
+}
+.possible h2 span{
+  font-size: 14px;
+  letter-spacing: normal;
+  text-transform: uppercase;
+}
+.women,
+.stds{
+  position: relative;
+  overflow: hidden;
+}
+
+.women img.imgss,
+.stds img.imgss{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.women article div.wom{
+  width: 42%;
+}
+.ntbs-results ul li img{
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+article.quote{
+  margin-bottom: 0px;
+}
+.h2-resw{
+  margin-top: 40px;
+}
+.section-possible{
+  position: relative;
+  overflow: hidden;
+}
+.section-possible img.kl-bg{
+  position: absolute;
+  top:5px;
+  left: 10px;
+  width: 7%;
+  height: auto;
+}
+.possible-longterm{
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.reduced{
+  width: 50%; margin: 0 auto; display: block; 
+}
+
+#downloads .keyItems {
+  width: 100% !important;
+}
+
+#downloads .keyItems h1 {
+  color: #74be44;
+  margin-bottom: 40px;
+}
+#downloads .keyItems p.doc {
+  padding-left: 30px;
+  width: 45% !important;
+  margin-right: 1%;
+  float: left;
+  position: relative;
+}
+#downloads .keyItems p.doc a {
+  color: #231f20;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "bebas_neuebold";
+  font-size: 24px;
+  text-decoration: underline;
+}
+p.doc {
+  background-image: url("../img/download.svg");
+  background-size: 20px;
+  background-repeat: no-repeat;
+  margin-bottom: 30px !important;
+}
+
+.closing-speech-marks{
+  margin-bottom: -10px;
+}
+
+@media screen and (max-width: 1024px){
+  .mainContent .resw li img {
+    width: auto;
+    height: auto;
+  }
+  .lessons-learnt {
+    background-image: none;
+  }
+  .mainContent .stds ul li:nth-child(1) img {
+    width: auto;
+  }
+  .ntbs-results ul li img{
+    width: auto;
+  }
+  mainContent .resw li img {
+    width: auto;
+    height: auto;
+  }
+  .yellow ul li:nth-child(2) p {
+    padding-top: 0px;
+  }
+  .women article div.wom {
+    width: 98%;
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 810px) {
+  #downloads .keyItems p.doc{
+    width: 98% !important;
+    margin: 0 auto;
+    padding-left: 25px;
+  }
+  #downloads .keyItems p.doc a{
+    line-height: 22px;
+    font-size: 18px;
+  }
+  p.doc {
+    background-size: 15px;
+    margin-bottom: 18px !important;
+  }
+  .c4{width: 45%;}
+  .c3{width: 45%}
+  .c2{width: 45%;}
+  .site-footer .col:nth-child(3) {
+    clear: left;
+  }
+  .site-footer .col{
+    margin-right: 5%;
+  }
+  .mainContent section h3,h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .mainContent .centerAligner p{
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .mainContent .ntbs .ntbs-harmonise ul li:nth-child(1) {
+    width: 98%;
+    border-right: none;
+  }
+  .women img.imgss, .stds img.imgss{
+    display: none;
+  }
+  .mainContent .stds ul li:nth-child(1) img {
+    width: auto;
+  }
+  .reduced{
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .section-possible img.kl-bg{
+    display: none;
+  }
+  .yellow ul li:nth-child(1) {
+    margin: 0 auto;
+    width: 98%;
+    border-right: none;
+  }
+  .women-results ul li:nth-child(1), 
+  .women-results ul li:nth-child(2) {
+    border-right: none;
+  }
+  .women-results ul li {
+    width: 98%;
+  }
+  .women article div.wom {
+    width: 98%;
+  }
+  .lessons-learnt {
+    background-image: none;
+  }
+  .footerCopyright .wrapper p{
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .sp-button {
+    width: 24px !important;
+    height: 10px !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .topImpact1{
+    position: relative;
+    right: 5px
+  }
+  .topImpact2{
+    position: relative;
+  }
+  .c4{width: 90%;}
+  .c3{width: 90%}
+  .c2{width: 90%;}
+  .one_quarter {
+    width: 98%;
+  }
+}
