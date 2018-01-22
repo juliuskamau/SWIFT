@@ -322,8 +322,7 @@ header {
     #callender #mainSlider02 .sp-slides-container .sp-slide {
       padding: 10% 0px 0px 0px;
       min-height: 200px; }
-  #callender #mainSlider02 .sp-selected-button,
-  #callender #mainSlider02 .sp-button {
+  #callender #mainSlider02 .sp-selected-button, #callender #mainSlider02 .sp-button {
     border-radius: 15px;
     width: 15px !important;
     height: 15px !important; }
@@ -350,8 +349,8 @@ header {
   height: auto; }
 .mainContent .mastHead {
   /*   width: 100%;
-     overflow: hidden;
-     position: relative;*/
+      overflow: hidden;
+      position: relative;*/
   background: url(../img/rwanda-country-programme.jpg);
   background-attachment: fixed;
   background-position: center;
@@ -362,10 +361,10 @@ header {
     width: 100%; }
   .mainContent .mastHead .description {
     /* position: absolute;
-     bottom: 40%;
-     width: 50%;
-     left: 10%;
-     top: auto;*/
+          bottom: 40%;
+          width: 50%;
+          left: 10%;
+          top: auto;*/
     margin: 0 auto;
     padding: 10% 0px 10% 0px;
     max-width: 80%;
@@ -936,6 +935,35 @@ header {
   header .menuCloser {
     background: url(../img/header/menu_closer.png) center center no-repeat; } }
 @media (max-width: 767px) {
+  #gallery .sp-next-arrow, #gallery .sp-previous-arrow {
+    display: none; }
+  #gallery h2 {
+    text-align: center !important; }
+  #gallery .gallery-control {
+    margin: 10px 0px 10px 0px; }
+
+  .mainContent .secondary_results .three_quarter p {
+    position: initial;
+    padding: 0px; }
+  .mainContent .secondary_results .full_width {
+    padding: 0px;
+    margin: 0px; }
+    .mainContent .secondary_results .full_width .one_quarter {
+      text-align: center; }
+      .mainContent .secondary_results .full_width .one_quarter img {
+        float: none;
+        padding-right: 0px; }
+    .mainContent .secondary_results .full_width .one_quarter:after {
+      display: none; }
+
+  section.keyresults {
+    display: none; }
+
+  section.overview.overview-overwrite b {
+    margin: 10px 0px 10px 0px;
+    clear: both;
+    display: block; }
+
   .column {
     width: 100%;
     clear: both; }
@@ -957,19 +985,31 @@ header {
       #news #mainSlider03 .sp-slides-container .sp-mask.sp-grab {
         padding: 0px;
         margin: 0 auto; }
-      #news #mainSlider03 .sp-slides-container h1, #news #mainSlider03 .sp-slides-container h2, #news #mainSlider03 .sp-slides-container p {
+      #news #mainSlider03 .sp-slides-container h2 {
+        margin: 10px 0px 10px 0px;
+        text-align: left; }
+      #news #mainSlider03 .sp-slides-container p {
         margin: 0 auto;
         text-align: left; }
     #news #mainSlider03 .new-wrapper {
       width: 100%;
-      clear: both; }
+      clear: both;
+      margin: 0px;
+      padding: 10px; }
 
   .mainContent .mastHead {
     min-height: auto; }
 
-  .mainContent .impact .row,
-  .mainContent .impact .paddingLeft .row {
-    padding: 0px; }
+  .mainContent .single-image.impact {
+    padding: 10px 0px 10px 0px;
+    display: none; }
+
+  .mainContent .impact .row, .mainContent .impact .paddingLeft .row {
+    padding: 0px;
+    border: none;
+    height: auto;
+    min-height: auto;
+    clear: both; }
 
   .mainContent .automationbenefits .row div.one_quarter {
     width: 100%;
@@ -981,11 +1021,16 @@ header {
     bottom: -16px; }
 
   .mainContent .impact .borderRight .row {
-    height: auto;
-    border-right: none; }
+    height: auto !important;
+    min-height: auto;
+    border-right: none;
+    clear: both; }
 
   #callender {
-    background-color: #F0F0F0; }
+    background-color: #F0F0F0;
+    max-width: 100%;
+    padding: 10px;
+    width: 100%; }
     #callender #mainSlider02 .sp-slides-container {
       background: none;
       background-color: #F0F0F0;
@@ -996,9 +1041,130 @@ header {
       #callender #mainSlider02 .sp-slides-container .sp-slide {
         padding: 0px;
         min-height: auto; }
-      #callender #mainSlider02 .sp-slides-container h1, #callender #mainSlider02 .sp-slides-container p {
+      #callender #mainSlider02 .sp-slides-container p {
         margin: 0px;
         padding: 0px;
-        text-align: left; } }
+        text-align: left;
+        color: #003b71; }
+      #callender #mainSlider02 .sp-slides-container h1 {
+        margin: 0px 0px 10px 0px;
+        text-align: left;
+        color: #003b71; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  #gallery .sp-next-arrow, #gallery .sp-previous-arrow {
+    display: none; }
+  #gallery h2 {
+    text-align: center !important; }
+  #gallery .gallery-control {
+    margin: 10px 0px 10px 0px; }
+
+  .mainContent .secondary_results .three_quarter p {
+    position: initial;
+    padding: 0px; }
+  .mainContent .secondary_results .full_width {
+    padding: 0px;
+    margin: 0px; }
+    .mainContent .secondary_results .full_width .one_quarter {
+      text-align: center; }
+      .mainContent .secondary_results .full_width .one_quarter img {
+        float: none;
+        padding-right: 0px; }
+    .mainContent .secondary_results .full_width .one_quarter:after {
+      display: none; }
+
+  section.keyresults {
+    display: none; }
+
+  section.overview.overview-overwrite b {
+    margin: 10px 0px 10px 0px;
+    clear: both;
+    display: block; }
+
+  .column {
+    width: 100%;
+    clear: both; }
+
+  #news {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0px; }
+    #news #mainSlider03 .news-logo {
+      padding: 0px;
+      background: #093C71;
+      padding: 10px; }
+    #news #mainSlider03 .sp-slides-container {
+      background: none;
+      background-color: #F0F0F0; }
+      #news #mainSlider03 .sp-slides-container .sp-previous-arrow, #news #mainSlider03 .sp-slides-container .sp-next-arrow {
+        display: none; }
+      #news #mainSlider03 .sp-slides-container .sp-mask.sp-grab {
+        padding: 0px;
+        margin: 0 auto; }
+      #news #mainSlider03 .sp-slides-container h2 {
+        margin: 10px 0px 10px 0px;
+        text-align: left; }
+      #news #mainSlider03 .sp-slides-container p {
+        margin: 0 auto;
+        text-align: left; }
+    #news #mainSlider03 .new-wrapper {
+      width: 100%;
+      clear: both;
+      margin: 0px;
+      padding: 10px; }
+
+  .mainContent .mastHead {
+    min-height: auto; }
+
+  .mainContent .single-image.impact {
+    padding: 10px 0px 10px 0px;
+    display: none; }
+
+  .mainContent .impact .row, .mainContent .impact .paddingLeft .row {
+    padding: 0px;
+    border: none;
+    height: auto;
+    min-height: auto;
+    clear: both; }
+
+  .mainContent .automationbenefits .row div.one_quarter {
+    width: 100%;
+    clear: both;
+    min-height: auto;
+    margin: auto auto 10px auto; }
+
+  .mainContent .automationbenefits .one_quarter p {
+    bottom: -16px; }
+
+  .mainContent .impact .borderRight .row {
+    height: auto !important;
+    min-height: auto;
+    border-right: none;
+    clear: both; }
+
+  #callender {
+    background-color: #F0F0F0;
+    max-width: 100%;
+    padding: 10px;
+    width: 100%; }
+    #callender #mainSlider02 .sp-slides-container {
+      background: none;
+      background-color: #F0F0F0;
+      padding: 3%;
+      min-height: auto; }
+      #callender #mainSlider02 .sp-slides-container .sp-next-arrow, #callender #mainSlider02 .sp-slides-container .sp-previous-arrow {
+        display: none; }
+      #callender #mainSlider02 .sp-slides-container .sp-slide {
+        padding: 0px;
+        min-height: auto; }
+      #callender #mainSlider02 .sp-slides-container p {
+        margin: 0px;
+        padding: 0px;
+        text-align: left;
+        color: #003b71; }
+      #callender #mainSlider02 .sp-slides-container h1 {
+        margin: 0px 0px 10px 0px;
+        text-align: left;
+        color: #003b71; } }
 
 /*# sourceMappingURL=main.css.map */
