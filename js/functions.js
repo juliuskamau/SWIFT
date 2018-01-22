@@ -99,6 +99,46 @@ $(document).ready(function () {
     });
 
 
+    $('#mainSlider02').sliderPro({
+        width: '100%',
+        height: '500',
+        autoHeight: true,
+        arrows: true,
+        buttons: true,
+        autoplay: true,
+        breakpoints: {
+            800: {
+                width: '100%',
+                autoHeight: true,
+                height: 'auto'
+            }
+        }, init: function () {
+
+        }
+    });
+
+
+    $('#mainSlider03').sliderPro({
+        width: '100%',
+        height: '500',
+        autoHeight: true,
+        arrows: true,
+        buttons: true,
+        autoplay: true,
+        breakpoints: {
+            800: {
+                width: '100%',
+                autoHeight: true,
+                height: 'auto'
+            }
+        }, init: function () {
+
+        }
+    });
+
+
+
+
     /***** END PRODUCTS OVERLAY SECTION *******/
 
     $(".menuOpener").click(function () {

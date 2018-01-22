@@ -31,6 +31,7 @@ $boldFamily:'bebas_neuebold';
 body{
 
     background:#fff;
+    
 
 }
 
@@ -233,6 +234,53 @@ strong{
 }
 
 
+
+
+.large-1 {
+    width: 8.33333%; }
+  
+  .large-2 {
+    width: 16.66667%; }
+  
+  .large-3 {
+    width: 25%; }
+  
+  .large-4 {
+    width: 33.33333%; }
+  
+  .large-5 {
+    width: 41.66667%; }
+  
+  .large-6 {
+    width: 47%; }
+  
+  .large-7 {
+    width: 58.33333%; }
+  
+  .large-8 {
+    width: 66.66667%; }
+  
+  .large-9 {
+    width: 75%; }
+  
+  .large-10 {
+    width: 83.33333%; }
+  
+  .large-11 {
+    width: 91.66667%; }
+  
+  .large-12 {
+    width: 100%; }
+  
+  .column, .columns {
+    position: relative;
+    float: left; 
+}
+.row {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+}
 /***** END GENERAL STYLING *******/
 
 /***** HEADER STYLING *******/
@@ -292,7 +340,7 @@ header{
                     line-height: 94px;
                     text-decoration: none;
                     text-transform: uppercase;
-                    color: #003b70;
+                    color: #003b71;
                     padding: 0px 15px;
                     font-family: 'franchiseregular';
                     font-size: 28px;
@@ -320,6 +368,200 @@ header{
     }
 
 }
+/***** news STYLING *******/
+#news{
+    padding: 30px 30px 0px 30px;
+    margin: 0 auto;
+
+    #mainSlider03 {
+
+        .sp-buttons {
+            padding-bottom: 10px;
+        }
+        .sp-slides-container{
+            background: url(../img/news.png);
+            min-height: 536px;
+            background-repeat: no-repeat;
+            background-position: 50px 0px;
+            .sp-previous-arrow{
+                background: url(../img/arrow-calender-left.png);
+                background-repeat: no-repeat;
+                margin-top: 0px;   
+            }
+            .sp-next-arrow {
+                background: url(../img/arrow-calender-right.png);
+                background-repeat: no-repeat;
+                margin-top: 0px;
+            }    
+            .sp-fade-arrows {
+                opacity: 0.9;
+            }
+
+            h1 {
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #fff;
+                font-family: 'franchiseregular';
+                font-size: 60px;
+                text-align: center;
+                line-height: normal;
+            }   
+
+
+            .sp-slide img{
+                clear: both;
+                margin: 0 auto;
+                float: none;
+                display: block;
+
+            }  
+
+            .sp-mask.sp-grab {
+                padding: 10% 0px 0px 0px;
+                min-height: 200px;
+            }
+
+        }   
+
+        .sp-selected-button {
+            background-color: #0B3D72 !important;
+        }
+        .sp-button {
+            border-radius: 15px;
+            width: 15px !important;
+            height: 15px !important;
+        } 
+        .new-wrapper{
+            margin-left: 6%;
+            width: 70%;
+
+            h2{
+                color: #0B3D72;
+            }
+
+            p{
+                color: #000000;
+            }
+        }
+
+        .news-logo{
+            padding: 0px 0px 0px 20%;
+        }
+
+    }
+}
+/***** GALLERY STYLING *******/
+
+#mainSlider{
+    .sp-slides-container {
+        clear: both;
+        display: block;
+        margin: 20px auto auto auto;
+    }
+
+    .sp-button {
+        border-radius: 15px;
+        width: 15px !important;
+        height: 15px !important;
+    }
+   .sp-selected-button {
+        background-color: #0B3D72 !important;
+    }
+
+    .sp-fade-arrows {
+        opacity: 0.9;
+    }
+    .sp-previous-arrow {
+        background: url(../img/arrow-gallery-left.png);
+        background-repeat: no-repeat;
+        margin-top: 0px;
+    }
+
+    .sp-next-arrow {
+        background: url(../img/arrow-gallery-rightt.png);
+        background-repeat: no-repeat;
+        margin-top: 0px;
+    }
+
+}
+
+/***** CALLENDER STYLING *******/
+.parallax{
+    background-color:white;
+}
+#callender{
+    padding: 30px 30px 0px 30px;
+    margin: 0 auto;   
+
+
+#mainSlider02{
+.sp-slides-container{
+    background: url(../img/callender.png);
+    min-height: 306px;
+    background-repeat: no-repeat;
+    background-position: 50px 0px;
+
+    h1{
+
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        font-family: 'franchiseregular';
+        font-size: 40px;
+        text-align: right;
+        line-height: normal;
+        margin: 24px 0px 0px 0px;
+    }
+
+
+    p{
+        font-family: "Arial";
+        color: #003b71;
+        font-size: 18px;
+        margin: 0px;
+        padding: 0rem 8rem 0rem 5rem;
+    
+        }
+
+ .sp-next-arrow{
+    background: url(../img/arrow-calender-right.png);
+    background-repeat: no-repeat;
+    margin-top: 0px;
+ }
+ .sp-previous-arrow{
+    background: url(../img/arrow-calender-left.png);
+    background-repeat: no-repeat;
+    margin-top: 0px;
+ }
+.sp-fade-arrows{
+    opacity: 0.9;
+}
+
+.sp-slide{
+    padding: 10% 0px 0px 0px;
+    min-height: 200px;  
+}
+
+} 
+.sp-selected-button,
+.sp-button{
+    border-radius: 15px;
+    width: 15px !important;
+    height: 15px !important;
+    
+}
+.sp-selected-button{
+    background-color: #0B3D72 !important;
+}
+
+.sp-buttons{
+padding-bottom: 10px;
+}
+}  
+
+
+}
+
 
 /***** MAIN CONTENT STYLING *******/
 
@@ -348,9 +590,17 @@ i{
 }
     .mastHead{
 
-        width: 100%;
+     /*   width: 100%;
         overflow: hidden;
-        position: relative;
+        position: relative;*/
+
+
+        background: url(../img/rwanda-country-programme.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 500px;
 
         img{
 
@@ -360,11 +610,16 @@ i{
 
         .description{
 
-            position: absolute;
+           /* position: absolute;
             bottom: 40%;
             width: 50%;
-            right: 25%;
-            top: auto;
+            left: 10%;
+            top: auto;*/
+            margin: 0 auto;
+
+            padding: 10% 0px 10% 0px;
+            max-width: 80%;
+            width: 100%;
 
             h1{
 
@@ -375,7 +630,7 @@ i{
             p{
 
                 font-size: 32px;
-                text-align: center;
+                text-align: left;
 
             }
 
@@ -415,9 +670,21 @@ i{
 
       }
     }
+    .overview.overview-overwrite{
 
+
+background: url(../img/rwanda-country-programme.jpg);
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+    }
     .impact{
         background: #063c5e;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         .vertical{
             box-sizing: border-box;
         }
@@ -427,13 +694,17 @@ i{
                 padding-left: 10px;
             }
             img{
-            width: 150px;
+            width: 200px;
             }
         }
         .borderRight .row{
             border-right:1px solid #e1e1e1;
             height: 100%;
-            max-height: 190px;
+            height: 200px;
+        }
+
+        .borderRight .row.image-overwrite{
+            height: 200px;
         }
         .paddingLeft .row{
             padding-left: 20%;
@@ -443,6 +714,7 @@ i{
         float:left;
         width: 100%;
         padding: 20% 0;
+        min-height: 200px;
         }
         .row:first-child{
             border-top: 0px;
@@ -456,7 +728,11 @@ i{
                     }
         }
     }
-
+    .image-overwrite{
+img{
+    width: 100px !important;
+}
+    }
     .single-image{
       position: relative;
       width: 100%;
@@ -465,6 +741,10 @@ i{
         width: 100%;
         height: auto;
       }
+p{
+    font-style: italic;
+}
+
     }
     .automationbenefits{
      background: #eee !important;
@@ -505,13 +785,24 @@ i{
     }
 
     .keyresults{
-     background: url("../img/banners/banner-4.jpg"); 
+     background: url("../img/key_result02.jpg"); 
      .green_overlay{
-      background: rgba(69,194,57, 0.5);
+     /*background:#75bf44ba ;*/
       height: 100%;
+      .full_width.fl{
+        .one_third.fl{
+margin: 0px;
+        }
+
+      }
+      p{
+        line-height: normal;
+        font-size: 24px;
+        margin: 0px;
+      }
      }
      .full_width{
-        padding-top: 5%;
+        padding-top: 2%;
      }
      .full_width.fl:not(:last-child){
         border-bottom: 1px solid #e1e1e1;
@@ -519,26 +810,42 @@ i{
      .reductions{
         text-align: center;
         .one_third:not(:last-child){
-         border-right: 1px solid #e1e1e1
+         border-right: 1px solid #e1e1e1;
+         height:360px;
         }
      }
     }
 
 
     .secondary_results{
-     background: url("../img/banners/banner-4.jpg"); 
+        background: url("../img/key_result.jpg"); 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
      .blue_overlay{
-            background: rgba(8,29,74, 0.7);
+          /*  background: rgba(8, 29, 74, 0.91);*/
             height: 100%;
          }
     .full_width{
         padding-top: 5%;
         box-sizing: border-box;
         .one_quarter{
-        border-right: 2px solid #FFF;
         margin-left: 0.5%;
+        position: relative;
+
+        &:after {
+            content: '';
+            height: 75%;
+            width: 2px;
+            position: absolute;
+            right: 0;
+            top: 25%;
+            margin: 0 auto;
+            background-color: #fff;
+        }
         img{
-            width: 100px;
+           
             float: right;
             padding-right: 20%;
          }
@@ -548,10 +855,13 @@ i{
         position: relative;
         bottom: -25px;
         padding-left: 5%;
+        font-size: 22px;
+        line-height: normal;
      }
      p{
       b{
-      font-size: 20px; 
+      font-size: 22px; 
+      font-weight: bold;
       }
      }
     }
@@ -716,10 +1026,14 @@ i{
         margin-bottom: 10%;
         }
     }
-
+    .centerAligner.centerAligner-overwrite{
+        padding: 30px 0px 30px 0px;
+        margin: 0 auto;
+        max-width: 85%;
+    }
     .centerAligner{
 
-        margin-bottom: 30px;
+        /*margin-bottom: 30px;*/
 
         overflow: hidden;
         padding: 30px;
@@ -1327,6 +1641,103 @@ i{
 
 }
 
+
+@media (max-width: 767px) {
+    .column{
+        width: 100%;
+        clear: both;
+    
+    }
+
+    #news {
+        width: 100%;
+        margin: 0 auto;
+        max-width: 100%;
+        padding: 0px;
+        #mainSlider03 {
+            .news-logo{
+                padding: 0px;
+                background:#093C71;
+                padding: 10px;
+            }
+            .sp-slides-container{
+                background: none;
+                background-color: #F0F0F0;
+                .sp-previous-arrow, .sp-next-arrow{
+display: none;
+                }
+                .sp-mask.sp-grab {
+                    padding: 0px;
+                    margin: 0 auto;
+                }
+                
+                h1,h2,p{
+                    margin: 0 auto;
+                    text-align: left;
+                  
+                }
+
+            }
+            .new-wrapper{
+                width: 100%;
+                clear: both; 
+            } 
+        }  
+    }
+
+    .mainContent {
+        .mastHead{
+            min-height: auto;
+        }
+       
+    }
+    .mainContent .impact .row,
+    .mainContent .impact .paddingLeft .row{
+        padding: 0px;
+    }
+    .mainContent .automationbenefits .row div.one_quarter{
+        width: 100%;
+        clear: both;
+        min-height: auto;
+        margin: auto auto 10px auto;
+    }
+    .mainContent .automationbenefits .one_quarter p{
+        bottom: -16px;
+    }
+    .mainContent .impact .borderRight .row{
+        height: auto;
+        border-right: none;
+    }
+
+    #callender {
+        background-color: #F0F0F0;
+        #mainSlider02
+        {
+            .sp-slides-container{
+                background: none;
+                background-color: #F0F0F0;
+                padding: 3%;
+                min-height: auto;
+
+                .sp-next-arrow,.sp-previous-arrow{
+                    display: none;
+                }
+                .sp-slide{
+                    padding: 0px;
+                    min-height: auto;
+                }
+
+                h1,p{
+                    margin: 0px;
+                    padding: 0px;
+                    text-align: left;
+                }
+            }
+
+        }
+        
+    }
+}
 @media print{
 
 
